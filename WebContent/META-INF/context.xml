@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/StudentApp">
+   <Resource name="jdbc/student_db" auth="Container"
+      type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
+      url="jdbc:mysql://localhost:3306/students_db"
+      username="root" password="root" maxTotal="20" maxIdle="10"
+      maxWaitMillis="-1"/>
+</Context>
